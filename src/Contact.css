@@ -1,53 +1,41 @@
-.footer {
-    width: 100%;
-    background-color: gray;
-    color: #eee;
-    padding: 3rem 1rem;
+.address h3{
+    font-style: italic;
+    padding: 10px
 }
 
-.footer .container {
-    max-width: 1240px;
-    margin: auto;
-    text-align: center;
+.underline {
+    width: 10rem;
+    height: 0.25rem;
+    background: red;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+.contact i {
+    font-size: 23px
+
+}
+.social_icons {
+    padding: 20px
+}
+.social_icons i:hover{
+    cursor: pointer;
 }
 
 .footer ul {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
-
 .footer li {
-    padding: 1rem;
-}
+    padding: 0.5rem;
 
-.footer li a {
-    color: #fff;
 }
-
 .footer li a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid var(--secondary-color);
 }
 
-.bottom {
-    text-align: center;
-    padding-top: 0.5rem;
+.footer {
+    background-color:gold
 }
-.bottom  address {
-    padding: 15px;
-    font-size: 20px;
-    color: black
-}
-
-.line {
-    margin-bottom: 1rem;
-}
-
-.phone {
-    padding: 20px
-}
-
-
-
-
-

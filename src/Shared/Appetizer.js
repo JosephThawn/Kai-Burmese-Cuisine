@@ -1,41 +1,46 @@
-export const Appetizers = [
-    {
-      id: 0,
-      name: "A Kyaw Sone",
-      elevation: 1233,
-      featured: false,
-      description:
-        "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.",
-      price: 12.99,
-    },
-  
+const menu = [
     {
       id: 1,
-      name: "La Phat Thot ",
-      elevation: 877,
-      featured: false,
-      description:
-        "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.",
-      price: 11.99,
+      title: 'La Phe Tot',
+      category: 'appetizer',
+      price: 9.99,
+      img: './images/item-1.jpg',
+      desc: `Seasoned tea leaves mixed with shrerdded cabbages, tomatoes, fresh garlic topped with chief special dressing, ground seasoned seed, peanuts and fried broad beans `,
     },
     {
       id: 2,
-      name: "Mon Hin Kha",
-      elevation: 2901,
-      featured: false,
-      description:
-        "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.",
-      price: 8.99,
+      title: 'A Kyaw Sone',
+      category: 'appetizer',
+      price: 9.99,
+      img: './images/item-2.jpg',
+      desc: `Seasoned tea leaves mixed with shrerdded cabbages, tomatoes, fresh garlic topped with chief special dressing, ground seasoned seed, peanuts and fried broad beans `,
+
     },
     {
       id: 3,
-      name: "Nan Kyi Thot",
-      elevation: 42,
-      featured: true,
-      description:
-        "You'll never want to leave this hidden gem, deep within the lush Redux Woods.",
-      price: 7.99,
+      title: 'Deep Fried Togu',
+      category: 'appetizer',
+      price: 8.99,
+      img: './images/item-3.jpg',
+      desc: `Based on popular demand this is a dish of deep fried tofu served with homemade Burmese dipping sauce.`,
     },
+    {
+      id: 4,
+      title: 'Somosa',
+      category: 'appetizer',
+      price: 5.99,
+      img: './images/item-4.jpg',
+      desc: `Deep fried parcel of soft potatoes, onion green peas seasoned with light curry and spices. Served with homemade dipping sauce 4 pcs per serving`,
+       
+    },
+    {
+      id: 5,
+      title: 'Buu Tee Kyaw(aka) Deep fried Courd',
+      category: 'appetizer',
+      price: 8.99,
+      img: './images/item-5.jpg',
+      desc: `Fresh gourd dipped in our unique batter and fried to perfection! served with our homemade sauce `,
+    },
+    
   ];
-  
-  
+  export default menu;

@@ -2,6 +2,7 @@ import React from 'react'
 import ziok from './assets/ziok.png'
 import ziusa from './assets/ziusa.png'
 import zntv from './assets/zntv.png'
+import ok from './assets/ok.png'
 import './About.css'
 
 function About() {
@@ -9,7 +10,7 @@ function About() {
     <div className='community' id='community'>
         <div className='container'>
             <h2>
-                Community Supports
+                Community Supporters
             </h2>
             <span className='line'></span>
             <div className='content'>
@@ -27,10 +28,17 @@ function About() {
                 </div>
                 <div className='card'>
                     <img src={zntv} alt='zntv'/>
+
                     <p>Eos nihil veniam id beatae inventore ut perferendis repellendus qui neque rerum ex facere nihil sed Quis dignissimos et culpa sapiente! Quo architecto enim qui blanditiis excepturi aut ullam numquam.</p>
                     <p><span>ZNTV</span></p>
                     <p>Zomin National TV</p>
-                </div>            
+                </div>    
+                <div className='card'>
+                    <img src={ok} alt='ok'/>
+                    <p>Eos nihil veniam id beatae inventore ut perferendis repellendus qui neque rerum ex facere nihil sed Quis dignissimos et culpa sapiente! Quo architecto enim qui blanditiis excepturi aut ullam numquam.</p>
+                    <p><span>ZNTV</span></p>
+                    <p>Zomin National TV</p>
+                </div>               
             </div>
         </div>
     </div>

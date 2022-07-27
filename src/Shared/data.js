@@ -1,0 +1,77 @@
+const menu = [
+    {
+      id: 1,
+      title: 'La Phe Tot',
+      category: 'appetizer',
+      price: 9.99,
+      img: './images/item-1.jpg',
+      desc: `Seasoned tea leaves mixed with shrerdded cabbages, tomatoes, fresh garlic topped with chief special dressing, ground seasoned seed, peanuts and fried broad beans `,
+    },
+    {
+      id: 2,
+      title: 'A Kyaw Sone',
+      category: 'entree',
+      price: 9.99,
+      img: './images/item-2.jpg',
+      desc: `Seasoned tea leaves mixed with shrerdded cabbages, tomatoes, fresh garlic topped with chief special dressing, ground seasoned seed, peanuts and fried broad beans `,
+
+    },
+    {
+      id: 3,
+      title: 'Samosa',
+      category: 'drinks',
+      price: 6.99,
+      img: './images/item-3.jpg',
+      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+    },
+    {
+      id: 4,
+      title: 'A Kyaw Zone',
+      category: 'appetizer',
+      price: 20.99,
+      img: './images/item-4.jpg',
+      desc: `This is a tempura dish with deep fried Burmese tofu, deep fried Burmese rice cake with black bean, garlic and ginger seasoning and deep fried Burmese rice caked with sweet peans and seasoning mixed inside`,
+       
+    },
+    {
+      id: 5,
+      title: 'egg attack',
+      category: 'entree',
+      price: 22.99,
+      img: './images/item-5.jpg',
+      desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+    },
+    {
+      id: 6,
+      title: 'oreo dream',
+      category: 'drinks',
+      price: 18.99,
+      img: './images/item-6.jpg',
+      desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+    },
+    {
+      id: 7,
+      title: 'bacon overflow',
+      category: 'appetizer',
+      price: 8.99,
+      img: './images/item-7.jpg',
+      desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+    },
+    {
+      id: 8,
+      title: 'american classic',
+      category: 'entree',
+      price: 12.99,
+      img: './images/item-8.jpg',
+      desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+    },
+    {
+      id: 9,
+      title: 'quarantine buddy',
+      category: 'drinks',
+      price: 16.99,
+      img: './images/item-9.jpg',
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+    },
+  ];
+  export default menu;
