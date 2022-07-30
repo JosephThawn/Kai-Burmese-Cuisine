@@ -3,21 +3,18 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="Contact">
       <div className="container">
         <div className="footer">
           <ul>
             <li className="nav-item">
-              <a href="#about">Home</a>
+              <a href="#Menu">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#about">About</a>
+              <a href="#About">About</a>
             </li>
             <li className="nav-item">
-              <a href="#testimonials">Menu</a>
-            </li>
-            <li className="nav-item">
-              <a href="#demo">Contact</a>
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -42,7 +39,7 @@ const Contact = () => {
         />
         <div className="social_icons">
           <a
-            href="/"
+            href="https://www.facebook.com/kaiburmese/"
             className="btn btn-social-icon btn-twitter"
             target="_blank"
           >
@@ -52,7 +49,7 @@ const Contact = () => {
             </span>
           </a>
           <a
-            href="/"
+            href="https://www.facebook.com/kaiburmese/"
             className="btn btn-social-icon btn-instagram"
             target="_blank"
           >
@@ -62,7 +59,7 @@ const Contact = () => {
             </span>
           </a>
           <a
-            href="/"
+            href="https://www.facebook.com/kaiburmese/"
             className="btn btn-social-icon btn-youtube"
             target="_blank"
           >
@@ -76,10 +73,10 @@ const Contact = () => {
             className="btn btn-social-icon btn-twitter"
             target="_blank"
           >
-            <span className="fa-stack fa-lg">
+            {/* <span className="fa-stack fa-lg">
               <i className="fa fa-square-o fa-stack-2x"></i>
               <i className="fa fa-twitter-square fa-stack-1x"></i>
-            </span>
+            </span> */}
           </a>
         </div>
       </div>

@@ -23,7 +23,7 @@ const MainMenu = () => {
   };
   return (
     <main>
-      <section className="menu section">
+      <section className="menu section" id="Menu">
         <div className="title">
           {/* <img src={logo} alt="logo" className="logo"/> */}
           <h2 className="menu_title">Kai Menu List</h2>
