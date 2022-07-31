@@ -11,16 +11,10 @@
 <br/>
 <div align="center">
 <kbd>
-<img src="./one.png">
+<img src="./kai.png">
 </kbd>
 </div>
 
-<br/>
-<div align="center">
-<kbd>
-<img src="./two.png">
-</kbd>
-</div>
 
 
 ## Summary
